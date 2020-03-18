@@ -1,12 +1,17 @@
 class Owner
   attr_accessor :name, :pets
+  @@all=[]
   
+   def self.all 
+     @@all 
+   end 
+
   def self.reset_all
-    OWNER.clear
+    @@all.clear
   end
   
   def initialize(name)
-    OWNER << self
+  
     @name = name
     @pets = {:dogs => :cats}
   end
