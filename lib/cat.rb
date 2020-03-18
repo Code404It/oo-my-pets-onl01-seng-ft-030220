@@ -1,5 +1,6 @@
 class Cat
-  attr_accessor :name, :mood
+  attr_accessor :mood, :owner
+  attr_reader :name 
   @@all =[]
   
   def initialize(name, owner)
