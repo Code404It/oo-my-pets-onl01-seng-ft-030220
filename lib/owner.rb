@@ -11,9 +11,8 @@ class Owner
   end
   
   def initialize(name)
-  
     @name = name
-    @pets = {:dogs => :cats}
+    @@all << self 
   end
 
   def buy_dog(name)
