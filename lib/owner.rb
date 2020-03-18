@@ -25,8 +25,7 @@ class Owner
        @@all.size 
    end
   
-   def cats
-     
+  
   
   
   
