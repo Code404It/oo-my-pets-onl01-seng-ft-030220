@@ -25,7 +25,18 @@ class Owner
        @@all.size 
    end
   
- 
+   def cats
+     
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   def buy_dog(name)
     pets[:dogs] << Dog.new(name)
   end
