@@ -15,9 +15,16 @@ class Owner
     @name = name
     @@all << self 
   end
+   
+   
    def say_species
       "I am a human."
-   end 
+   end
+   
+   def self.count 
+       @@all.size 
+   end
+  
  
   def buy_dog(name)
     pets[:dogs] << Dog.new(name)
