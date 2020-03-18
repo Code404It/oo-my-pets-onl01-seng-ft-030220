@@ -63,9 +63,7 @@ class Owner
       cat.mood = "nervous"
       cat.owner = nil
     end
-    
-    def sell_pets
-    dogs.each do |dog|
+      dogs.each do |dog|
       dog.mood = "nervous"
       dog.owner = nil
     end
