@@ -70,7 +70,7 @@ class Owner
       dog.owner = nil
     end
   end
-  
+end
 
 
 
